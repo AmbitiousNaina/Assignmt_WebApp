@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lobster+Two:wght@400;700&display=swap');
+:root{
+
+--primary-color : #EF4444 ;
+--off-grey:#D1D5DB;
+--black: #111827;
+}
+
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster Two', cursive;
+    margin: var(--black);
+}
+
+img {
+    max-width: 250px;
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.container .heading-inverted {
+    color: var(--off-grey);
+
+}
+
+#header {
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+    /* font-size: 2rem; */
+    padding: 1.1rem;
+    color: black;
+    background-color: var(--primary-color);
+    margin: 0.1rem;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.container {
+    padding: 1rem;
+    margin: auto;
+}
+.ow .container-center{
+    max-width: 230px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.container-center {
+    padding: 0.5rem;
+    font-size: large;
+    max-width: 1500px;
+    margin: auto;
+    display:block;
+}
+.ow {
+    background-color: var(--off-grey);
+}
+
+button {
+
+    background-color: var(--primary-color);
+    border: strong;
+    margin: 1.2rem;
+    padding: 0.1rem 2rem;
+    font-family: 'Texturina', serif;
+    font-size: large;
+    border-radius: 0.5rem;
+    
+}
+.flex-parent {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+
+ 
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 0rem;
+    text-align: center;
+    color:var(--off-grey);
+    border-top-right-radius: 1rem;
+} 
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.footer .link {
+
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
