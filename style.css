@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lobster+Two:wght@400;700&display=swap');
 :root{
 
---primary-color : #EF4444 ;
---off-grey:#D1D5DB;
+--primary-color:#B45309 ;
+--off-yellow:#FDE68A;
 --black: #111827;
 }
 
@@ -20,7 +20,7 @@ img {
 }
 
 .container .heading-inverted {
-    color: var(--off-grey);
+    color: var(--off-yellow);
 
 }
 
@@ -66,7 +66,7 @@ h1 {
     display:block;
 }
 .ow {
-    background-color: var(--off-grey);
+    background-color: var(--off-yellow);
 }
 
 button {
@@ -103,7 +103,7 @@ button {
     background-color: var(--primary-color);
     padding: 0rem;
     text-align: center;
-    color:var(--off-grey);
+    color:var(--off-yellow);
     border-top-right-radius: 1rem;
 } 
 

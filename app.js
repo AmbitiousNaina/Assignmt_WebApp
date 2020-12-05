@@ -2,10 +2,11 @@ var userInput = document.querySelector("#input");
 var btnTranslate = document.querySelector("#btn-translate");
 var outputDiv = document.querySelector("#output");
 
-var serverUrl = "https://api.funtranslations.com/translate/ermahgerd.json"
+// var serverURL = "https://api.funtranslations.com/translate/ermahgerd.json"
+var serverURL= "https://api.funtranslations.com/translate/ferb-latin.json"
 
-function getTranslationUrl(input) {
-    return serverUrl + "?" + "text=" + input
+function getTranslationURL(input) {
+    return serverURL + "?" + "text=" + input;
 }
 
 function errorHandler(error) {
@@ -14,10 +15,11 @@ function errorHandler(error) {
 }
 
 function clickHandler() {
+  
     var inputText = userInput.value; //taking a value
 
     //calling server for processing
-    fetch(getTranslationUrl(inputText))
+    fetch(getTranslationURL(inputText))
         .then(response => response.json())
         .then(json => {
             var translatedText = json.contents.translated;
